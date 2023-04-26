@@ -4,6 +4,7 @@ Alarma antirrobo que se activa cuando dispositivo BT se aleja.
 Módulo principal formado por Raspberry Pi Zero. Se coloca en la mochila y detecta la señal de un dispositivo Bluetooth.
 
 El módulo secundario está formado por un ESP32-WROOM. Funciona como beacon Bluetooth Low Energy (BLE). Transmite un mensaje cada 10 segundos.
+¿Qué es un beacon o baliza Bluetooth? https://es.wikipedia.org/wiki/Baliza_electr%C3%B3nica  
 
 La Raspberry ejecuta Node-RED (https://nodered.org)  
 En Node-RED se instalaron los siguientes nodos para poder detectar el módulo BLE
