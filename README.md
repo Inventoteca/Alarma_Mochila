@@ -30,3 +30,13 @@ npm install @abandonware/noble
 Hay otros nodos para beacons que no se probaron. Por ejemplo eddystone-url https://flows.nodered.org/node/node-red-contrib-eddystone
 
 Para hacer una interfaz gráfica se instaló node-red-dashboard https://flows.nodered.org/node/node-red-dashboard  
+
+## GPS
+Se usa un módulo GPS para obtener la ubicación de la mochila.  
+Documentación del módulo https://docs.onion.io/omega2-docs/using-gps-expansion.html  
+Aquí se pueden decodificar mensajes de GPS en formato NMEA https://rl.se/gprmc  
+Se siguió este tutorial para configurar los nodos de mapa  https://www.industrialshields.com/es_ES/blog/raspberry-pi-para-la-industria-26/post/tutorial-de-node-red-como-obtener-las-coordenadas-gps-con-un-widget-de-mapas-304  
+El flujo quedó un poco diferente al tutorial  
+Se instalaron estos nodos:  
+El primero convierte mensajes NMEA en objetos de javascript https://flows.nodered.org/node/node-red-contrib-nmea  
+El segundo provee un mapa en el que se pueden dibujar marcadores https://flows.nodered.org/node/node-red-contrib-web-worldmap  
