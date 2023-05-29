@@ -40,3 +40,7 @@ El flujo quedó un poco diferente al tutorial
 Se instalaron estos nodos:  
 El primero convierte mensajes NMEA en objetos de javascript https://flows.nodered.org/node/node-red-contrib-nmea  
 El segundo provee un mapa en el que se pueden dibujar marcadores https://flows.nodered.org/node/node-red-contrib-web-worldmap  
+
+## Diseño 3D
+El modelo del porta pilas se descargó de aquí https://www.thingiverse.com/thing:5237855  
+La carcasa del beacon se diseñó con SolidWorks  
