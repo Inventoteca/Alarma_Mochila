@@ -40,6 +40,8 @@ Hay otros nodos para beacons que no se probaron. Por ejemplo eddystone-url https
 Se usa un módulo GPS para obtener la ubicación de la mochila.  
 Primero se utilizó este módulo https://docs.onion.io/omega2-docs/using-gps-expansion.html  
 Después se cambió a este módulo https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_%28GPS.G6-HW-09005%29.pdf  
+https://www.electronicwings.com/raspberry-pi/gps-module-interfacing-with-raspberry-pi  
+https://lastminuteengineers.com/neo6m-gps-arduino-tutorial/  
 Aquí se pueden decodificar mensajes de GPS en formato NMEA https://rl.se/gprmc  
 Se siguió este tutorial para configurar los nodos de mapa  https://www.industrialshields.com/es_ES/blog/raspberry-pi-para-la-industria-26/post/tutorial-de-node-red-como-obtener-las-coordenadas-gps-con-un-widget-de-mapas-304  
 El flujo quedó un poco diferente al tutorial  
